@@ -1,0 +1,23 @@
+contract FHEGameOfLife {
+  state {
+    owner: address
+    grid: map[int]int
+  }
+
+  event CellEvolved(pos: int, new_state: int)
+
+  constructor() {
+    self.owner = origin
+  }
+
+  fn evolve(pos: int, is_3: int, is_2: int): bool {
+    let current = self.grid[pos]
+    let survives = current * is_2
+    let prod = is_3 * survives
+    let sum = is_3 + survives
+    let next_state = sum - prod
+    self.grid[pos] = next_state
+    emit CellEvolved(pos, next_state)
+    return true
+  }
+}

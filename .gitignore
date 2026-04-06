@@ -1,0 +1,17 @@
+# Sensitive Data
+wallet.json
+.env
+
+# Python specific
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Large Binaries
+octra_gol
+octra_wallet

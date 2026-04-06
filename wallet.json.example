@@ -1,0 +1,5 @@
+{
+  "priv": "PASTE_YOUR_PRIVATE_KEY_HERE",
+  "addr": "PASTE_YOUR_ADDRESS_HERE",
+  "rpc": "http://46.101.86.250:8080/rpc"
+}
