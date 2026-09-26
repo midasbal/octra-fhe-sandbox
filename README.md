@@ -1,5 +1,7 @@
 > "Fully homomorphic encryption makes it possible to compute on data without ever revealing it."
 
+## it’s a wip
+
 # Octra FHE Terminal & Branchless Logic Sandbox
 
 This repository is a technical deep-dive into the world of Fully Homomorphic Encryption (FHE) via the Octra Network. It bridges the gap between high-level terminal interfaces and low-level cryptographic assembly, proving that I can compute complex logic on data that remains entirely encrypted.
